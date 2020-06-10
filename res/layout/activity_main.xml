@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textBemVindos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton2"
+        android:layout_alignRight="@+id/ImageBAdd"
+        android:text="@string/adicionar"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/ganhos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textBemVindos"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:text="@string/Remover"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textBemVindos"
+        android:layout_below="@+id/imageButton1"
+        android:text="@string/lucros"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:contentDescription="@string/lista"
+        android:onClick="onLista"
+        android:src="@drawable/ic_listar1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/imageButton3"
+        android:layout_marginRight="14dp"
+        android:text="@string/lista"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton1"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:contentDescription="@string/Remover"
+        android:onClick="onRemover"
+        android:src="@drawable/ic_remover1" />
+
+    <ImageButton
+        android:id="@+id/ImageBAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="97dp"
+        android:contentDescription="@string/adicionar"
+        android:onClick="onClickAdicionar"
+        android:src="@drawable/ic_add2" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ImageBAdd"
+        android:layout_below="@+id/ImageBAdd"
+        android:layout_marginTop="49dp"
+        android:contentDescription="@string/lucros"
+        android:onClick="onLucrar"
+        android:src="@drawable/ic_lucros" />
+
+</RelativeLayout>

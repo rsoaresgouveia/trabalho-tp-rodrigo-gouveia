@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/sobre" android:checkable="true" android:title="Sobre" android:orderInCategory="1" android:titleCondensed="Sobre"></item>
+
+</menu>

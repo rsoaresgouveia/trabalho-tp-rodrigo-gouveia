@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">&quot;Travelers Guide &quot;</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Adicionar">&quot;Adicionar &quot;</string>
+    <string name="Remover">Remover</string>
+    <string name="vendas">Para ver as vendas dos Travelers</string>
+    <string name="mudar">mudar</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="title_activity_adicionar">AdicionarActivity</string>
+    <string name="Nome">Nome:</string>
+    <string name="Email">Email:</string>
+    <string name="Telefone">Numero de telefone:</string>
+    <string name="cpf">CPF:</string>
+    <string name="Voltar">Voltar</string>
+    <string name="OK">OK</string>
+    <string name="add_trav">Adicionar Traveler</string>
+    <string name="license">Icons By DryIcons</string>
+    <string name="Continuar">Continuar</string>
+    <string name="title_activity_localidade">LocalidadeActivity</string>
+    <string name="title_activity_remover">Remover</string>
+    <string name="lucros">Ver Lucros</string>
+    <string name="lista">Lista</string>
+    <string name="ps">ps. Por ser uma versão Alpha do aplicativo, ainda estamos aumentando a quantidade de lugares para viagens.</string>
+    <string name="localidade">Escolha a localidade desejada:</string>
+    <string name="nomeRemover">Digite quem deseja remover:</string>
+    <string name="title_activity_remove_certeza">RemoveCerteza</string>
+    <string name="dados">dados</string>
+    <string name="nada"></string>
+    <string name="phone">Telefone:</string>
+    <string name="nomes">Nome</string>
+    <string name="emails">Email</string>
+    <string name="cpfs">CPF</string>
+    <string name="telefones">Telefone</string>
+    <string name="location">Localidade</string>
+    <string name="title_activity_lista">ListaActivity</string>
+    <string name="CD">Clique para deletar</string>
+    <string name="title_activity_listar_travelers">ListarTravelers</string>
+    <string name="title_activity_lucrar">Lucrar</string>
+    <string name="vendasd">Quantidade de vendas:</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="textoreal">Olá, Bem Vindo ao Travelers Guide, onde cada novo integrante é visto como um novo membro da família e  apelidado carinhosamente de Traveler.  Espero que aproveite todas as funcionalidades deste aplicativo para você ou sua empresa se desenvolver e ir ao infinito e além!</string>
+    <string name="versãoalpha">ps. Aplicativo em \"Versão Alpha\", Bugs podem ocorrer.</string>
+
+</resources>
